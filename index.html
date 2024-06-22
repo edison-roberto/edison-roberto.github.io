@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Portfólio de Edison Roberto, Desenvolvedor Front End especializado em HTML, CSS, JavaScript e PHP. Veja meus projetos e entre em contato!">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="shortcut icon" href="images/p-circle-fill.svg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsivo.css">
+
+    <script src="js/menu.js" defer></script>
+    <script src="js/main.js" defer></script>
+    <script src="js/barra.js" defer></script>
+    <script src="js/biblioteca.js" defer></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <title>Portfólio</title>
+</head>
+
+<body>
+
+    <header id="header">
+        <div class="interface">
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#contatos">Contatos</a></li>
+                </ul>
+            </nav>
+            <div class="btn-abrir-menu" id="btn-menu">
+                <i class="bi bi-list"></i>
+            </div>
+            <div class="menu-mobile" id="menu-mobile">
+                <div class="btn-fechar">
+                    <i class="bi bi-x-lg"></i>
+                </div>
+
+                <nav>
+                    <ul>
+                        <li><a href="#inicio">Início</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#projetos">Projetos</a></li>
+                        <li><a href="#contatos">Contatos</a></li>
+                    </ul>
+                </nav>
+
+            </div>
+            <div class="overlay-menu" id="overlay-menu"></div>
+        </div>
+    </header>
+
+    <main>
+        <section class="topo-do-site" id="inicio">
+            <div class="interface">
+                <div class="img_foto">
+                    <img tabindex="0" src="images/img-edison.jpg" alt="Foto de Edison Roberto">
+                </div>
+                <h1 tabindex="0" data-aos="fade-up" data-aos-duration="3000">Edison Roberto</h1>
+                <h2 tabindex="0" class="texto" data-aos="zoom-in">Desenvolvedor Front End</h2>
+                <p tabindex="0" class="texto_p" data-aos="zoom-in">Ser um desenvolvedor é uma
+                    viagem onde a
+                    próxima parada é a solução de um problema <span>.</span></p>
+            </div>
+        </section>
+
+        <section class="sobre" id="sobre">
+            <div class="interface">
+                <div class="flex">
+                    <div data-aos="fade-right" data-aos-duration="3000" class="txt-sobre">
+                        <h2 tabindex="0"><span>Sobre Mim</span></h2>
+                        <p tabindex="0" class="paragrafo_sobre1">Maceió-AL</p>
+                        <p tabindex="0" class="paragrafo_sobre2">
+                            Estou iniciando minha carreira de desenvolvedor
+                            front end. Comecei a estudar programação em 2022,
+                            com um curso técnico na instituição SENAC-AL. Gosto de criar layouts
+                            para páginas web. Desde que descobri como criar códigos, comecei a desenvolver minhas
+                            habilidades para fazer projetos pessoais.
+                        </p>
+                        <p tabindex="0" class="paragrafo_sobre2">
+                            No curso aprendi HTML, CSS, JavaScript e bootstrap para desenvolver sites e landing pages. Estou sempre estudando para aprender coisas
+                            novas e compartilhar ideias. Aqui neste portfólio, você encontrará meus projetos e meus
+                            contatos.
+                        </p>
+                    </div>
+
+                    <div data-aos="fade-left" data-aos-duration="3000" tabindex="0" class="progress-bars">
+
+                        <div class="span">
+                            <span>HTML</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="progress-bar-container">
+                            <div class="progress-bar" id="htmlProgressBar"></div>
+                        </div>
+
+                        <div class="span">
+                            <span>CSS</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="progress-bar-container">
+                            <div class="progress-bar" id="cssProgressBar"></div>
+                        </div>
+
+                        <div class="span">
+                            <span>JAVASCRIPT</span>
+                            <span>50%</span>
+                        </div>
+                        <div class="progress-bar-container">
+                            <div class="progress-bar" id="jsProgressBar"></div>
+                        </div>
+
+                        <div class="span">
+                            <span>BOOTSTRAP</span>
+                            <span>50%</span>
+                        </div>
+                        <div class="progress-bar-container">
+                            <div class="progress-bar" id="bootsProgressBar"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="portfolio" id="projetos">
+            <div class="interface">
+                <div data-aos="fade-right" data-aos-duration="3000" class="txt-projetos">
+                    <h2 tabindex="0">Meus <span>Projetos</span></h2>
+                    <p tabindex="0">Veja alguns dos meus projetos mais recentes. <strong>Clique na imagem desejada para
+                            visualizar o
+                            site.</strong></p>
+                </div>
+                <div class="projetos-container">
+                    <div class="projetos-content">
+                        <div class="projetos-box">
+                            <a href="landing_page_barbearia/index.html" target="_blank"><img src="images/barbearia.png"
+                                    alt="Projeto Barbearia"></a>
+                        </div>
+                        <h3></h3>
+                    </div>
+
+                    <div class="projetos-content">
+                        <div class="projetos-box">
+                            <a href="petshop/index.html" target="_blank"><img src="images/pet.png"
+                                    alt="Projeto Petshop"></a>
+                        </div>
+                        <h3></h3>
+                    </div>
+                    <div class="projetos-content">
+                        <div class="projetos-box">
+                            <a href="tela_login/index.html" target="_blank"><img src="images/login.png"
+                                    alt="Projeto Tela de Login"></a>
+                        </div>
+                        <h3></h3>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <section class="main-container" id="contatos">
+            <!-- Informações de endereço -->
+            <div id="address-container">
+                <div class="fade"></div>
+                <div id="address-content">
+                    <h2 tabindex="0"><i class="bi bi-send"></i> Endereço</h2>
+                    <p tabindex="0">Av Benedito Bentes 2</p>
+                    <h2 tabindex="0"><i class="bi bi-telephone"></i> Telefone</h2>
+                    <p tabindex="0">(82) 99915-4098</p>
+                    <h2 tabindex="0"><i class="bi bi-envelope-at"></i> E-mail</h2>
+                    <p tabindex="0">ediroberto.al@gmail.com</p>
+                </div>
+            </div>
+            <!-- Formulário para contato -->
+            <div id="form-container">
+                <h2 tabindex="0">Contratar meus serviços!</h2>
+                <form id="contact-form" action="https://getform.io/f/warkdrlb" method="post">
+                    <label tabindex="0" for="nome">Nome:</label>
+                    <input tabindex="0" type="text" name="nome" placeholder="Digite seu nome">
+                    <label tabindex="0" for="email">E-mail:</label>
+                    <input tabindex="0" type="email" name="email" placeholder="Digite seu e-mail">
+                    <label tabindex="0" for="telefone">Telefone:</label>
+                    <input tabindex="0" type="text" name="telefone" placeholder="Digite seu telefone">
+                    <label tabindex="0" for="msg">Sua mensagem:</label>
+                    <textarea tabindex="0" name="msg" placeholder="Como posso ajudar?"></textarea>
+                    <input type="submit" value="Enviar mensagem">
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="line-footer borda"></div>
+        <div class="copy">
+            <p tabindex="0">Copyright &copy; 2024 Portfólio. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+    <a href="https://wa.me/5582999154098?text=Ol%C3%A1%2C+quero+contratar+seus+serviços%21+" class="btn-whatsapp"
+        target="_blank" data-aos="zoom-in-up" data-aos-delay="400">
+        <img src="images/whatsapp (1).png" alt="Botão WhatsApp">
+        <span class="tooltip-text">Contratar serviços</span>
+    </a>
+
+</body>
+
+</html>
