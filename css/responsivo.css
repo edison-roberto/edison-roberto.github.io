@@ -4,10 +4,10 @@
         margin-right: 15px;
         display: flex;
         justify-content: end;
-       
+
     }
 
-    .menu-desktop{
+    .menu-desktop {
         display: none;
     }
 
@@ -16,95 +16,101 @@
     }
 
     .topo-do-site {
-        background-color:#242525;
+        background-color: #242525;
         min-height: 50vh;
         text-align: center;
-        
+
     }
 
-    .topo-do-site .img_foto img{
+    .topo-do-site .img_foto img {
         margin-top: 5rem;
-        width: 100px; 
-        height: 100px; 
-       
-    }
-  
+        width: 100px;
+        height: 100px;
 
-    h1{
+    }
+
+
+    h1 {
         font-size: 25px;
         color: #fff;
-        max-width: 50%;
+        max-width: 60%;
         margin: auto;
     }
 
-    .texto{
-        line-height: 50px;
-         font-size: 30px;
-         margin: auto;
-         color: #fff;
-      
-        
+    .texto {
+        line-height: 40px;
+        font-size: 25px;
+        margin: auto;
+        color: #fff;
+
+
     }
+
+    .texto_p {
+        font-size: 20px;
+        max-width: 100%;
+        margin: auto;
+        color: #fff;
+
+
+    }
+
+
 
     section.sobre {
         padding: 40px 10px;
         background-color: #242525;
         display: flex;
-        
-      
-        
+
+
+
     }
 
     .sobre .txt-sobre h2 {
         font-size: 2rem;
         margin-bottom: 1rem;
-       
+
     }
 
-    .sobre .txt-sobre{
+    .sobre .txt-sobre {
         width: 100%;
         padding: 20px;
-       
-      
+
+
     }
 
     section.sobre .flex {
         display: flex;
-       flex-direction: column;
-    
+        flex-direction: column;
+
     }
 
-     .texto_p{
-        font-size: 20px;
-        max-width: 70%;
-        margin: auto;
-        color: #fff;
-       
-       
-    }
 
-   .sobre .progress-bars {
+
+    .sobre .progress-bars {
         display: flex;
         flex-direction: column;
         width: 50%;
         display: none;
-      
-    
-       
+
+
+
     }
-    .sobre .span{
+
+    .sobre .span {
         display: flex;
         justify-content: space-between;
         margin-top: 50px;
         color: #fff;
     }
 
-    section.portfolio  {
-       padding: 70px 0;
+    section.portfolio {
+        padding: 10px 0;
         background-color: #fff;
         box-shadow: 0 0 40px 10px #ffffff83;
-     
+
     }
+
     .txt-projetos,
     .projetos-container {
         display: block;
@@ -117,20 +123,22 @@
         background-color: #fff;
         box-shadow: 0 0 40px 10px #ffffff83;
     }
-    
+
 
     .txt-projetos {
         position: static;
-        margin-bottom: 2rem;
-       
+        margin-bottom: 3rem;
+
+
     }
 
     .txt-projetos h2 {
-       justify-content: center;
-       font-size: 35px;
-       display: flex;
-       gap: 6px;
-       
+        justify-content: center;
+        font-size: 35px;
+        display: flex;
+        gap: 5px;
+        margin: 0;
+
     }
 
     .txt-projetos p {
@@ -138,53 +146,51 @@
         line-height: 25px;
         width: 80%;
         margin: auto;
+
+
     }
 
     .main-container {
         height: 100%;
         flex-wrap: wrap;
-      }
-      #form-container,
-  #address-container {
-    flex: 1 1 100%;
-  }
 
-  #form-container {
-    order: -1;
-    padding: 30px;
-  }
+    }
 
-  #form-container h2 {
-    margin-bottom: 25px;
-  }
+    #form-container,
+    #address-container {
+        flex: 1 1 100%;
+    }
 
-  #contact-form {
-    width: 100%;
-  }
+    #form-container {
+        order: -1;
+        padding: 30px;
+    }
 
-  #contact-form input,
-  #contact-form label,
-  #contact-form textarea {
-    border-color: #AAA;
-  }
+    #form-container h2 {
+        margin-bottom: 25px;
+    }
 
-  #address-container {
-    background-position: 0;
-    height: 500px;
-  }
+    #contact-form {
+        width: 100%;
+    }
 
-  .fade {
-    opacity: .9;
-  }
+    #address-container {
+        background-position: 0;
+        height: 500px;
+    }
 
-  #address-content {
-    top: 25%;
-    left: 25%;
-  }
+    .fade {
+        opacity: .9;
+    }
 
-  .copy {
-    color: #fff;
-   text-align: center;
-}
+    #address-content {
+        top: 25%;
+        left: 25%;
+    }
+
+    .copy {
+        color: #fff;
+        text-align: center;
+    }
 
 }

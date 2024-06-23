@@ -192,6 +192,7 @@ header.rolagem a {
     background-color:#242525;
     min-height: 100vh;
     text-align: center;
+    padding: 2rem;
     
 }
 
@@ -209,6 +210,7 @@ h1{
     color: #fff;
     max-width: 40%;
     margin: auto;
+   
 }
 
 .texto{
@@ -239,9 +241,10 @@ h1{
 
 /* ESTILO DO SOBRE */
 section.sobre {
-    padding: 80px;
+    min-height: 100vh;
     background-color: #242525;
     margin: auto;
+    padding: 80px;
 }
 
 section.sobre .flex {
@@ -249,8 +252,6 @@ section.sobre .flex {
     justify-content: center;
     align-items: center;
     gap: 60px;
-
-
 
 }
 
@@ -261,15 +262,13 @@ section.sobre .flex {
 
 .sobre .txt-sobre h2 {
     font-size: 4rem;
-    margin-bottom: 5rem;
+    margin-bottom: 2rem;
    
-    
 }
 
 .sobre .txt-sobre h2 span {
     color: #fff;
     
-   
 }
 
 .sobre .txt-sobre p {
@@ -281,7 +280,6 @@ section.sobre .flex {
 
 .sobre .txt-sobre .paragrafo_sobre2{
     margin-bottom: 1rem;
-   
 }
 
 .sobre .progress-bars {
@@ -318,13 +316,10 @@ section.sobre .flex {
 
 /* ESTILO DO PORTFÓLIO */
 section.portfolio {
-   
     padding: 70px 0;
     background-color: #fff;
     box-shadow: 0 0 40px 10px #ffffff83;
 }
-
-
 
 .txt-projetos,
 .projetos-container {
@@ -332,8 +327,6 @@ section.portfolio {
     margin-right: -4px;
     vertical-align: top;
     width: 50%;
-   
-
 }
 
 .txt-projetos {
@@ -346,9 +339,9 @@ section.portfolio {
 }
 
 .txt-projetos h2 {
-    font-size: 4rem;
-    line-height: 50px;
-    color: #888;
+    font-size: 9rem;
+    line-height: 7rem;
+    color: #000;
     margin: 2rem 5rem;
 
 }
@@ -359,8 +352,7 @@ section.portfolio {
 
 .txt-projetos p {
     font-size: 20px;
-    margin: 30px 0 20px 0;
-    color: #888;
+    color: #000;
     margin: 0 5rem;
     line-height: 25px;
 }
@@ -375,21 +367,6 @@ section.portfolio {
    
    
 }
-
-/*
-.projetos-content button{
-    width: 30%;
-    height: 50px;
-    border: none;
-    border-radius: 50px;
-    background-color: #000;
-    font-size: 15px;
-    cursor: pointer;
-    margin-top: 5px;
-    color: #fff;
-    transition: .2s;
-}
-*/
 
 .projetos-content h3 {
     margin-top: 10px;
@@ -473,7 +450,7 @@ section.portfolio {
   }
   
   #form-container h2 {
-    color: #888;
+    color: #000;
     margin-bottom: 50px;
     font-size: 30px;
   }
@@ -490,20 +467,18 @@ section.portfolio {
   #contact-form textarea {
     display: block;
     padding: 10px;
-    border: 1px solid #EEE;
     width: 100%;
-    color: #AAA;
+    font-size: 15px;
+  
+    
   }
   
   #contact-form label {
-    color: #999;
+    color: #000;
     font-weight: bold;
-    border-bottom: none;
-  }
+}
   
-  #contact-form input {
-    margin-bottom: 15px;
-  }
+  
   
   #contact-form input::placeholder,
   #contact-form textarea::placeholder {
