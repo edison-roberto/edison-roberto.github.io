@@ -9,11 +9,13 @@ html {
     scroll-behavior: smooth;
 }
 
+
 .interface {
     max-width: 1280px;
     margin: 0 auto;
   
 }
+
 
 .btn-contato button {
     margin-top: 25px;
@@ -66,7 +68,7 @@ header {
 
 header>.interface .menu-desktop {
     text-align: center;
-     width: 50%;
+     width: 60%;
      margin: auto;
     padding: 25px;
    
@@ -243,25 +245,17 @@ h1{
 section.sobre {
     min-height: 100vh;
     background-color: #242525;
-    margin: auto;
-  
+    gap: 5rem;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 40px 0;
    
-}
-
-section.sobre .flex {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 60px;
-    
-
 }
 
 .sobre .txt-sobre{
     width: 50%;
+    margin-left: 40px;
   
 }
 
@@ -291,6 +285,7 @@ section.sobre .flex {
     display: flex;
     flex-direction: column;
     width: 50%;
+    margin-right: 40px;
     height: 50vh;
     margin-top: 8rem;
    
@@ -341,9 +336,6 @@ section.portfolio {
     top: 30%;
     left: 0;
    
-   
-  
-
 }
 
 .txt-projetos h2 {
@@ -389,8 +381,6 @@ section.portfolio {
     transition: 0.5s;
 
 }
-
-
 
 .main-container {
   
