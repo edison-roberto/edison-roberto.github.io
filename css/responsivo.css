@@ -1,4 +1,4 @@
-@media (max-width: 650px) {
+@media (max-width: 960px) {
     .btn-abrir-menu {
         display: block;
         margin-right: 15px;
@@ -48,14 +48,12 @@
 
     .texto_p {
         font-size: 20px;
-        max-width: 100%;
+        max-width: 85%;
         margin: auto;
         color: #fff;
 
 
     }
-
-
 
     section.sobre {
         padding: 40px 10px;
