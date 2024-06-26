@@ -67,7 +67,9 @@ header {
 header>.interface .menu-desktop {
     text-align: center;
      width: 50%;
-    margin: auto;
+     margin: auto;
+    padding: 25px;
+   
 }
 
 header a {
@@ -90,7 +92,8 @@ header nav ul{
 
 header nav.menu-desktop ul li {
     display: inline-block;
-    padding: 0 18px;
+    padding: 0 30px;
+  
  
    
    
@@ -210,6 +213,7 @@ h1{
     max-width: 50%;
     text-align: center;
     margin: auto;
+    margin-top: 10px;
    
 }
 
@@ -218,14 +222,15 @@ h1{
     font-size: 5rem;
     color: #fff;
     text-align: center;
+    margin-top: 10px;
 }
 
 .texto_p{
     font-size: 18px;
    text-align: center;
     color: #fff;
-   margin-top: 10px;
-   
+   margin-top: 20px;
+  
 }
 
 .texto_p span{
@@ -239,7 +244,11 @@ section.sobre {
     min-height: 100vh;
     background-color: #242525;
     margin: auto;
-    padding: 80px;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
 }
 
 section.sobre .flex {
@@ -247,6 +256,7 @@ section.sobre .flex {
     justify-content: center;
     align-items: center;
     gap: 60px;
+    
 
 }
 
