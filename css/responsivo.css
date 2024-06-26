@@ -17,7 +17,7 @@
 
     .topo-do-site {
         background-color: #242525;
-        min-height: 50vh;
+        min-height: 100vh;
         text-align: center;
 
     }
@@ -73,8 +73,6 @@
         margin-left: 0px;
        
     }
-
-    
 
     .sobre .progress-bars {
        display: none;
