@@ -218,27 +218,12 @@ h1{
 }
 
 .texto{
-    line-height: 130px;
+    line-height: 140px;
     font-size: 10rem;
     color: #fff;
     text-align: center;
     margin-top: 10px;
 }
-
-.texto_p{
-    font-size: 18px;
-   text-align: center;
-    color: #fff;
-   margin-top: 20px;
-  
-}
-
-.texto_p span{
-   color: #00AD5E;
-  font-size: 50px;
-  line-height: 8px;
-}
-
 
 section.sobre {
     min-height: 100vh;

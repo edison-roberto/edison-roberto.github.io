@@ -46,16 +46,6 @@
 
     }
 
-    .texto_p {
-        font-size: 18px;
-        max-width: 100%;
-        margin: auto;
-        color: #fff;
-        padding: 0 30px;
-
-
-    }
-
     .sobre {
        background-color: #242525;
         padding: 50px 30px;
@@ -65,9 +55,7 @@
        
     }
 
-   
-
-   .sobre .txt-sobre h2 {
+    .sobre .txt-sobre h2 {
         font-size: 30px;
         margin-bottom: 1rem;
 
