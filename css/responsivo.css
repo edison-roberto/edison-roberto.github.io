@@ -51,6 +51,8 @@
         padding: 50px 30px;
         display: block;
         text-align: center;
+        margin-left: 0;
+        margin-right: 0;
       
        
     }
@@ -61,9 +63,8 @@
 
     }
 
-    .txt-sobre {
-        margin-left: 0;
-       
+    .sobre .txt-sobre .paragrafo_sobre2{
+        margin-bottom: 0;
     }
 
     .sobre .txt-sobre p{
@@ -73,7 +74,9 @@
     
 
     .progress-bars{
-       padding: 0 30px;
+     margin: auto;
+     padding: 0  30px;
+      
       
     }
 
