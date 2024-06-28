@@ -70,7 +70,7 @@ header>.interface .menu-desktop {
     text-align: center;
      width: 60%;
      margin: auto;
-    padding: 25px;
+   
    
 }
 
@@ -96,9 +96,6 @@ header nav.menu-desktop ul li {
     display: inline-block;
     padding: 0 30px;
   
- 
-   
-   
 }
 
 header.rolagem {
@@ -196,6 +193,7 @@ header.rolagem a {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 20px;
    
 }
 
@@ -220,8 +218,8 @@ h1{
 }
 
 .texto{
-    line-height: 50px;
-    font-size: 5rem;
+    line-height: 130px;
+    font-size: 10rem;
     color: #fff;
     text-align: center;
     margin-top: 10px;
@@ -245,18 +243,23 @@ h1{
 section.sobre {
     min-height: 100vh;
     background-color: #242525;
-    gap: 5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-   
-   
+  
 }
 
-.sobre .txt-sobre{
-    width: 50%;
-    margin-left: 40px;
+.sobre{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  gap: 6rem;
   
+  
+}
+
+.txt-sobre{
+    flex: 40%;
+    margin-left: 5%;
+   
 }
 
 .sobre .txt-sobre h2 {
@@ -271,7 +274,6 @@ section.sobre {
 }
 
 .sobre .txt-sobre p {
-   
     font-size: 21px;
     color: #fff;
 
@@ -281,14 +283,11 @@ section.sobre {
     margin-bottom: 1rem;
 }
 
-.sobre .progress-bars {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    margin-right: 40px;
-    height: 50vh;
-    margin-top: 8rem;
-   
+.progress-bars{
+  flex: 40%;
+  margin-right: 5%;
+  
+
 }
 
 .sobre .progress-bar-container {
