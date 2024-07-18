@@ -204,16 +204,17 @@ header.rolagem a {
     object-fit: cover; 
     display: block;
     margin: 0 auto;
+    margin-top: 30px;
    
 }
 
 h1{
-    font-size: 3rem;
+    font-size: 2rem;
     color: #fff;
     max-width: 50%;
     text-align: center;
     margin: auto;
-    margin-top: 10px;
+    margin-top: 15px;
    
 }
 
@@ -303,6 +304,7 @@ section.portfolio {
     background-color: #fff;
     box-shadow: 0 0 40px 10px #ffffff83;
   
+  
 }
 
 .txt-projetos,
@@ -311,6 +313,7 @@ section.portfolio {
     margin-right: -4px;
     vertical-align: top;
     width: 50%;
+  
    
 }
 
@@ -343,7 +346,7 @@ section.portfolio {
 
 .projetos-container {
     color: #000;
-    text-align: center;
+    text-align: end;
 }
 
 .projetos-content {
