@@ -113,3 +113,61 @@ h1{
   
 }
 
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    .input-container input {
+        font-size: 14px;
+        padding: 15px 35px 15px 15px;
+    }
+
+    .input-container a {
+        font-size: 14px;
+    }
+
+    .submit {
+        font-size: 14px;
+        height: 45px;
+    }
+
+    .link p a {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        width: 100%;
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    .input-container input {
+        font-size: 12px;
+        padding: 10px 30px 10px 10px;
+    }
+
+    .input-container a {
+        font-size: 12px;
+    }
+
+    .submit {
+        font-size: 12px;
+        height: 40px;
+    }
+
+    .link p a {
+        font-size: 12px;
+    }
+}
+
